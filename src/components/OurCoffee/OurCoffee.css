@@ -1,0 +1,66 @@
+.OurCoffee {
+
+    text-align: center;
+    padding: 50px 250px;
+}
+
+.OurCoffee h2 {
+    margin-bottom: 70px;
+}
+
+.OurImg .col {
+
+    margin-bottom: 50px;
+}
+
+.OurImg {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.OurImg h2 {
+    margin-bottom: 70px;
+}
+
+.underline {
+    margin: 0 auto;
+    width: 250px;
+    border-bottom: 1px solid #000;
+}
+
+.OurCoffee .btn {
+    margin-top: 0;
+    color: #000;
+    border: none;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+.OurCoffee .btn:hover {
+    background-color: transparent;
+    transform: scale(1.07)
+}
+
+.OurCoffee form {
+    margin-top: 100px;
+}
+
+.form1 {
+    margin-right: 100px;
+    margin-bottom: 50px;
+
+}
+
+.form1 input {
+    border-color: transparent;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.form1 input:hover {
+    transform: scale(1.07);
+}
+
+input[type="text"]:focus {
+
+    outline: none;
+}

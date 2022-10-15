@@ -1,0 +1,16 @@
+.Main {
+
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.MainText {
+
+    margin: 0px auto;
+
+    max-width: 580px;
+}
+
+.Main h2 {
+    margin-bottom: 80px;
+}

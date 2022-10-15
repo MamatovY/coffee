@@ -1,0 +1,21 @@
+.AboutIt .MenuSpan {
+    font-weight: bold;
+}
+
+.AboutText {
+    text-align: left;
+}
+
+.AboutText div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.price h3 {
+    display: inline;
+}
+
+.OurMainImg img {
+    width: 270px;
+    height: 350px;
+}

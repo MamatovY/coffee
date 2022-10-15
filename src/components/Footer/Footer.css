@@ -1,0 +1,10 @@
+.Footer {
+    color: #000;
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.Footer .TopHeader {
+    margin-bottom: 30px;
+}

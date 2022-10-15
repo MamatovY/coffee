@@ -1,0 +1,49 @@
+.Header {
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0 100px 0;
+}
+
+.HeaderMain {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 80px;
+}
+
+.btn {
+    margin-top: 50px;
+    border-color: #fff;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 40px 5px 40px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navWhite {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navWhite:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navBlack {
+    color: #000;
+    text-decoration: none;
+}
+
+.navBlack:hover {
+    color: #000;
+    text-decoration: underline;
+}

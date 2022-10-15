@@ -1,0 +1,19 @@
+.TopHeader {
+    font-size: 12px;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.iconHeader {
+    display: flex;
+}
+
+.iconImg {
+    margin-top: -20px;
+}
+
+.TopHeader a.active {
+    text-decoration: underline;
+}

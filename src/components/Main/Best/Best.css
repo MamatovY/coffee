@@ -1,0 +1,43 @@
+.Best {
+    color: #000;
+    background: url(../../img/paper-1074131_1920.svg);
+    padding: 80px 0;
+}
+
+
+.BestMenu {
+    justify-content: center;
+}
+
+a.Menu {
+
+    background: #FFF;
+    margin: 20px;
+    padding: 0 20px;
+    filter: drop-shadow(5px 5px 35px rgba(0, 0, 0, 0.2));
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.Menu:hover {
+    transform: scale(1.07);
+}
+
+.Menu div {
+    margin: 40px 0;
+
+}
+
+.Menu img {
+    width: 150px;
+    height: 130px;
+}
+
+.MenuSpan span {
+    font-weight: bold;
+}
+
+.MenuSpan {
+    text-align: end;
+}
