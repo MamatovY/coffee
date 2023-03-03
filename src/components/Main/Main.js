@@ -2,14 +2,14 @@ import './Main.css'
 import { Container } from 'react-bootstrap'
 import { Best } from './Best/Best'
 import { Header } from '../Header/Header'
+import headerImg1 from './../../assets/img/coffeePage1.png'
 
 export const Main = ({ coffeeData }) => {
 
     return (
         <>
-
             <Header headH1={'Everything You Love About Coffee'}
-                headImg={`url(img/Header1.svg)`}
+                headImg={headerImg1}
             />
             <div className='Main'>
                 <Container>

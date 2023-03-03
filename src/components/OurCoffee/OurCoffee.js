@@ -3,6 +3,9 @@ import { BestList } from '../Main/Best/BestList'
 import { Component } from 'react'
 import './OurCoffee.css'
 import { Header } from '../Header/Header';
+import headerImg from './../../assets/img/coffeePage2.png'
+import girlImg from './../../assets/img/girl.jpg'
+import h2Black from './../../assets/img/h2Black.svg'
 
 class OurCoffee extends Component {
     constructor(props) {
@@ -23,20 +26,20 @@ class OurCoffee extends Component {
             <>
 
                 <Header headH1={'Our Coffee'}
-                    headImg={`url(img/Header2.svg)`}
+                    headImg={headerImg}
                 />
                 <div className='OurCoffee'>
                     <Container>
                         <Row className='OurImg'>
                             <Col xl={5} className='col'>
                                 <div>
-                                    <img src="img/girl-865304_1920.svg" alt="" />
+                                    <img src={girlImg} alt="" />
                                 </div>
                             </Col>
                             <Col xl={6} className='col'>
                                 <h2>About our beans
                                     <div>
-                                        <img src="img/h2Black.svg" alt="" />
+                                        <img src={h2Black} alt="" />
                                     </div>
                                 </h2>
                                 <div>

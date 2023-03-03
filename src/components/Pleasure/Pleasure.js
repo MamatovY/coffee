@@ -3,6 +3,9 @@ import './Pleasure.css'
 import { Row, Col, Container } from 'react-bootstrap'
 import { BestList } from '../Main/Best/BestList'
 import { Header } from '../Header/Header'
+import headerImg from './../../assets/img/coffeePage3.png'
+import h2Black from './../../assets/img/h2Black.svg'
+import pleasureAbout from './../../assets/img/coffeePage3About.png'
 
 export const Pleasure = ({ coffeeData }) => {
 
@@ -10,20 +13,20 @@ export const Pleasure = ({ coffeeData }) => {
         <>
 
             <Header headH1={'For your pleasure'}
-                headImg={`url(img/Header3.svg)`}
+                headImg={headerImg}
             />
             <div className='Pleasure'>
                 <Container >
                     <Row className='OurImg'>
                         <Col xl={5} className='col'>
                             <div>
-                                <img src="img/coffee-839233_1920.svg" alt="" />
+                                <img src={pleasureAbout} alt="" />
                             </div>
                         </Col>
                         <Col xl={6} className='col'>
                             <h2>About our goods
                                 <div>
-                                    <img src="img/h2Black.svg" alt="" />
+                                    <img src={h2Black} alt="" />
                                 </div>
                             </h2>
                             <div>

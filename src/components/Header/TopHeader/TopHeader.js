@@ -1,7 +1,7 @@
 import './TopHeader.css'
 import { Row, Col } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
-export const TopHeader = ({ navColor }) => {
+export const TopHeader = ({ navColor, navImg }) => {
 
     return (
         <div className="TopHeader">
@@ -11,7 +11,7 @@ export const TopHeader = ({ navColor }) => {
                 <Col>
                     <div className='iconHeader'>
                         <div className='iconImg'>
-                            <img src={`img/${navColor}.svg`} alt="" />
+                            <img src={navImg} alt="" />
                         </div>
                         <NavLink to='/' className={navColor} end>
                             Coffee house

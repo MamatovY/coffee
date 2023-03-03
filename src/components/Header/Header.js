@@ -1,6 +1,8 @@
 import './Header.css'
 import { TopHeader } from "./TopHeader/TopHeader"
 import { Container } from 'react-bootstrap'
+import h2White from './../../assets/img/h2White.svg'
+import navWhite from './../../assets/img/navWhite.svg'
 
 const House = () => {
     return (
@@ -26,14 +28,14 @@ export const Header = ({ headImg, headH1 }) => {
     const Visible = headH1 === 'Everything You Love About Coffee' ? House : dis
 
     return (
-        <div className="Header" style={{ backgroundImage: `${headImg}` }}>
+        <div className="Header" style={{ backgroundImage: `url(${headImg})` }}>
             <Container>
-                <TopHeader navColor={'navWhite'} />
+                <TopHeader navColor={'navWhite'} navImg={navWhite} />
                 <div className="HeaderMain">
                     <h1>
                         {headH1}
                         <div>
-                            <img src="img/h2White.svg" alt="" />
+                            <img src={h2White} alt="" />
                         </div>
                     </h1>
                     <Visible />
